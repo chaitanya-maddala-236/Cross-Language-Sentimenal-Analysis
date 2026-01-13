@@ -340,21 +340,6 @@ For production use, replace with:
 
 ---
 
-## 📝 Research Paper (Draft Outline)
-
-### Title
-*Cross-Lingual Sentiment Analysis for Indian Languages: A Zero-Shot and Few-Shot Transfer Learning Study*
-
-### Abstract
-We investigate zero-shot and few-shot transfer learning for sentiment analysis across English, Hindi, Telugu, and Tamil. Using XLM-RoBERTa, we achieve 79.4% average accuracy without target language training data. Layer-wise probing reveals that middle transformer layers (4-8) encode language-agnostic semantic representations. Few-shot learning with just 75 samples improves accuracy by 3.2%. Error analysis identifies short text handling as the primary challenge (58% of errors).
-
-### Contributions
-1. Systematic comparison of multilingual models for Indic languages
-2. Layer-wise analysis revealing cross-lingual transfer mechanisms
-3. Sample efficiency study showing 75 samples suffice for adaptation
-4. Comprehensive error taxonomy for failure mode analysis
-
----
 
 ## 🏆 Applications
 
@@ -391,66 +376,6 @@ Contributions are welcome! Here's how:
 - Scale to larger datasets
 
 ---
-
-## 📖 Citations
-
-If you use this work, please cite:
-
-```bibtex
-@misc{maddala2024crosslingual,
-  title={Cross-Lingual Sentiment Analysis for Indian Languages},
-  author={Maddala, Chaitanya},
-  year={2024},
-  publisher={GitHub},
-  url={https://github.com/chaitanya-maddala-236/Cross-Language-Sentimenal-Analysis}
-}
-```
-
-### Referenced Papers
-
-```bibtex
-@inproceedings{conneau2020xlmr,
-  title={Unsupervised Cross-lingual Representation Learning at Scale},
-  author={Conneau, Alexis and others},
-  booktitle={ACL},
-  year={2020}
-}
-
-@inproceedings{pires2019mbert,
-  title={How multilingual is Multilingual BERT?},
-  author={Pires, Telmo and others},
-  booktitle={ACL},
-  year={2019}
-}
-
-@inproceedings{kakwani2020indicbert,
-  title={IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages},
-  author={Kakwani, Divyanshu and others},
-  booktitle={EMNLP},
-  year={2020}
-}
-
-@inproceedings{tenney2019bert,
-  title={BERT Rediscovers the Classical NLP Pipeline},
-  author={Tenney, Ian and others},
-  booktitle={ACL},
-  year={2019}
-}
-```
-
----
-
-## 📧 Contact
-
-**Chaitanya Maddala**
-- GitHub: [@chaitanya-maddala-236](https://github.com/chaitanya-maddala-236)
-- Email: [Your Email]
-- LinkedIn: [Your LinkedIn]
-
-**Project Link**: [https://github.com/chaitanya-maddala-236/Cross-Language-Sentimenal-Analysis](https://github.com/chaitanya-maddala-236/Cross-Language-Sentimenal-Analysis)
-
----
-
 ## 🙏 Acknowledgments
 
 - **Hugging Face** for Transformers library
