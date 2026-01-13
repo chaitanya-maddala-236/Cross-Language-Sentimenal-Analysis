@@ -1,0 +1,46 @@
+{
+  "xlm-roberta-base": {
+    "model": "xlm-roberta-base",
+    "description": "XLM-RoBERTa",
+    "english_val": {
+      "accuracy": 0.842,
+      "f1": 0.8419335802221999
+    },
+    "indic_results": {
+      "hindi": {
+        "accuracy": 0.7575757575757576,
+        "f1": 0.75364945132387
+      },
+      "telugu": {
+        "accuracy": 0.7777777777777778,
+        "f1": 0.7729044834307992
+      },
+      "tamil": {
+        "accuracy": 0.7676767676767676,
+        "f1": 0.7582859764542564
+      }
+    }
+  },
+  "bert-base-multilingual-cased": {
+    "model": "bert-base-multilingual-cased",
+    "description": "mBERT",
+    "english_val": {
+      "accuracy": 0.844,
+      "f1": 0.8438876350540215
+    },
+    "indic_results": {
+      "hindi": {
+        "accuracy": 0.6363636363636364,
+        "f1": 0.6272499430394167
+      },
+      "telugu": {
+        "accuracy": 0.6161616161616161,
+        "f1": 0.5933101506871998
+      },
+      "tamil": {
+        "accuracy": 0.6161616161616161,
+        "f1": 0.5730883495589378
+      }
+    }
+  }
+}

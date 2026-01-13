@@ -1,0 +1,14 @@
+{
+  "hindi": {
+    "Short text": 14,
+    "Negation": 1
+  },
+  "telugu": {
+    "Short text": 19,
+    "Negation": 1
+  },
+  "tamil": {
+    "Short text": 25,
+    "Negation": 1
+  }
+}
